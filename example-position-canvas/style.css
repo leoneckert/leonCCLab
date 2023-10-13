@@ -1,0 +1,9 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: coral;
+}
+
+#canvasWrapper{
+  margin-left: 100px;
+}
