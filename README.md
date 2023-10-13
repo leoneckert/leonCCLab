@@ -13,6 +13,6 @@ Below links will lead you to either the code or the live version depending on wh
 
 - [My first website](my-first-website/index.html)
 - [Here I learned CSS](web-with-style)
-- [and this is my template for future projects. it includes a p5 canvas](_templateP5)
+- [and this is my template for future projects. it includes a p5 canvas](templateP5)
 
 more to come, see you soon!
