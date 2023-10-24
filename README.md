@@ -14,5 +14,6 @@ Below links will lead you to either the code or the live version depending on wh
 - [My first website](my-first-website/index.html)
 - [Here I learned CSS](web-with-style)
 - [and this is my template for future projects. it includes a p5 canvas](templateP5)
+- [simple sound sketch](soundInP5_1)
 
 more to come, see you soon!
