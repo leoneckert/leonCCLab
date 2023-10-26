@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(90, 120, 250);
+  background(120, 190, 250);
 
   instanceOfTaxi.display();
   instanceOfTaxi.update();
@@ -36,6 +36,14 @@ class Taxi {
     this.w = 100; //width
     this.speed = random(-2, 2);
     this.col = [120, 150, 90]; //r g b in array
+    let randomNumber = random(0, 3);
+    if(randomNumber<1){
+       this.driver = "🦹";
+     }else if(randomNumber<2){
+       this.driver = "👨‍🔬";
+     }else if(randomNumber<3){
+       this.driver = "👩‍🎓";
+     }
   }
   display(){
     // here we actually draw the thing using property value
@@ -49,10 +57,23 @@ class Taxi {
     // different instances will have different scales
     scale(this.scaleFactor);
 
+    this.drawDriver();
+    
+    //car
     fill(this.col[0], this.col[1], this.col[2]);
     rect(0, 0, this.w, 30);
+    
+    //window
+    fill(0, 20, 240, 60);
+    rect(this.w/2-this.w/6, -this.w/3, this.w/3, this.w/3)
 
     pop();
+  }
+  drawDriver(){
+    // in reference to objects translated origin
+    textSize(35);
+    textAlign(CENTER);
+    text(this.driver, this.w*0.5, 0)
   }
   update(){
     // here we will change property values
