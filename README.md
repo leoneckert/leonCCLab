@@ -15,5 +15,6 @@ Below links will lead you to either the code or the live version depending on wh
 - [Here I learned CSS](web-with-style)
 - [and this is my template for future projects. it includes a p5 canvas](templateP5)
 - [simple sound sketch](soundInP5_1)
+- [intro to classes](taxi_v1)
 
 more to come, see you soon!
