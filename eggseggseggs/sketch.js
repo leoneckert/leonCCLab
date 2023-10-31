@@ -3,7 +3,8 @@ let notYetTouched = true;
 let minScale = 0.4;
 let maxScale = 1.5;
 function setup() {
-  createCanvas(window.innerWidth, window.innerHeight);
+  let cnv = createCanvas(window.innerWidth, window.innerHeight);
+  cnv.parent("canvasWrapper");
   basket[0] = new Egg(random(width), random(height), random(minScale, maxScale));
   basket[1] = new Egg(random(width), random(height), random(minScale, maxScale));
   
