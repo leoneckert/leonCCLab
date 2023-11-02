@@ -17,5 +17,6 @@ Below links will lead you to either the code or the live version depending on wh
 - [simple sound sketch](soundInP5_1)
 - [intro to classes](taxi_v1)
 - [eggs](eggseggseggs)
+- [confettis](confettis)
 
 more to come, see you soon!
