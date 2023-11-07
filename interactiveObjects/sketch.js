@@ -14,7 +14,7 @@ function setup() {
 function draw() {
     background(180);
 
-    if(random(0, 100) < 1 ){
+    if(random(0, 100) < 1 && faces.length < 400){
         faces.push(new Face(random(width), random(height)));
     }
 
@@ -36,6 +36,8 @@ function draw() {
             faces.splice(i, 1);
         }
     }
+
+  
 
 
 
