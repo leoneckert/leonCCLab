@@ -18,5 +18,6 @@ Below links will lead you to either the code or the live version depending on wh
 - [intro to classes](taxi_v1)
 - [eggs](eggseggseggs)
 - [confettis](confettis)
+- [interactiveObjects](interactiveObjects)
 
 more to come, see you soon!

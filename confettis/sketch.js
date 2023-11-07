@@ -17,9 +17,12 @@ function setup() {
 }
 
 function draw() {
-    background(backgroundHue, 10, 190);
+    background(backgroundHue, 10, 90);
 
-    //   confettis.push(new Confetti(width/2, height/2)) 
+    
+
+    // confettis.push(new Confetti(width/2, height/2))
+
 
     if(mouseIsPressed == true){
         for(let i = 0; i < numConfetti; i++){
