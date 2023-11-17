@@ -1,0 +1,66 @@
+p{
+    color: green;
+    /* background-color: orange; */
+    /* outline-color: black;
+    outline-width: 1px;
+    outline-style: dotted; */
+}
+
+/* 
+select classed with
+"." and classname
+*/
+.description{
+    text-decoration: underline;
+}
+
+#canvasWrapper{
+    /* background-color: green; */
+    outline: 2px green solid;
+
+}
+
+.p5name{
+    /* background-color: rgb(233, 29, 236); */
+    outline: 3px pink solid;
+    /* display: block; */
+}
+
+.captionWrapper{
+    margin:30px;
+    padding: 5px;
+    /* margin-left: 50px; */
+    outline: 1px black solid;
+    background-color: chartreuse;
+}
+
+.caption{
+    outline: 1px red dotted;
+    margin: 0;
+}
+
+.box2{
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.box3{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.box1{
+    position: relative;
+    left: 20px;
+    top: 0px;
+
+}
+
+.myText{    
+    outline: 1px solid blue;   
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+}

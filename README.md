@@ -19,5 +19,6 @@ Below links will lead you to either the code or the live version depending on wh
 - [eggs](eggseggseggs)
 - [confettis](confettis)
 - [interactiveObjects](interactiveObjects)
+- [particleCollider](particleCollider)
 
 more to come, see you soon!
