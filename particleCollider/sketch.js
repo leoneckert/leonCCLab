@@ -32,7 +32,7 @@ function preload(){
 
 
 function setup(){   
-    let cnv = createCanvas(800, 400);
+    let cnv = createCanvas(windowWidth, 400);
     cnv.parent("canvasWrapper");
 
     for(let i = 0; i < numAtoms; i++){
